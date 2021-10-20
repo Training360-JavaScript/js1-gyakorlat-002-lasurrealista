@@ -21,10 +21,11 @@ const checker = (inputArray = [], item = true) => {
         exists: inputArray.includes(item),
         index: inputArray.findIndex( i => i === item ),
         allElementIsANumber: inputArray.every( 
-            i => typeof i === 'number'
+            i => typeof i === 'string'
         ),
         someElementIsANumber: inputArray.some( 
             i => typeof i === 'number'
         ),
     };
 };
+
