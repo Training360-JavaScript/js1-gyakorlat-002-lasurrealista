@@ -8,3 +8,4 @@
 const generateList = (items = []) => {
     return `<ul>${items.map( i => `<li>${i}</li>`).join('')}</ul>`;
 };
+
