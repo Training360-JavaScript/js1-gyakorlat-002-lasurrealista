@@ -6,5 +6,5 @@ __térjen vissza__ az elemek egész számra kerekített összegével!
 */
 
 const brutto = (items) => Math.round(
-    items.reduce( (p, c) => p + c * 1.27, 0)
+    items.reduce( (p, c) => p + c * 1.5, 0)
 );
